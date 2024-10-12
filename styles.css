@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.gradient-bg {
+    background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 200px;  /* Adjust the size as needed */
+    height: auto;
+}
+
+.welcome-container, .auth-container, .dashboard-container {
+    width: 90%;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;  /* Ensure all text inside is centered */
+}
+
+input[type="email"], input[type="password"], input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #3742fa;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);  /* Add a slight background for better visibility */
+}
+
+.service:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.service-logo {
+    width: 50px;  /* Adjust size as needed */
+    height: auto;
+    margin-right: 15px;
+}
+
+.service h3 {
+    margin: 0;
+    font-size: 18px;
+}
